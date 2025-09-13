@@ -1,8 +1,7 @@
 class Usuario:
     def __init__(self, email, senha):
         self.email = email
-        self.__senha = None
-        self.senha = senha  
+        self.__senha = senha  
 
     @property
     def senha(self):
