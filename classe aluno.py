@@ -23,5 +23,5 @@ print(f"Aluno: {aluno.nome}, Nota inicial: {aluno.nota}")
 aluno.nota = 8
 print(f"Nota atual: {aluno.nota}")
 
-aluno.nota = 12  # Deve exibir erro
+aluno.nota = 12 
 print(f"Nota final: {aluno.nota}")
