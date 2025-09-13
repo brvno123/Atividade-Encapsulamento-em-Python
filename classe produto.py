@@ -1,9 +1,7 @@
 class Produto:
     def __init__(self, nome, preco):
         self.nome = nome
-        self.__preco = None  
-        self.set_preco(preco)  
-
+        self.__preco = preco
 
     def get_preco(self):
         return self.__preco
@@ -13,8 +11,6 @@ class Produto:
             print("Erro: o preço não pode ser negativo.")
         else:
             self.__preco = novo_preco
-
-    preco = property(get_preco, set_preco)
 
 produto = Produto("Notebook", 3000)
 
