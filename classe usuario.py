@@ -2,7 +2,7 @@ class Usuario:
     def __init__(self, email, senha):
         self.email = email
         self.__senha = None
-        self.senha = senha  # Usa o setter com validação
+        self.senha = senha  
 
     @property
     def senha(self):
