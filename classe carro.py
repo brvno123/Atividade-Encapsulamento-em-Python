@@ -1,7 +1,7 @@
 class Carro:
     def __init__(self, modelo):
         self.modelo = modelo
-        self.__velocidade = 0  # velocidade inicial
+        self.__velocidade = 0  
 
     def acelerar(self, valor):
         if valor > 0:
