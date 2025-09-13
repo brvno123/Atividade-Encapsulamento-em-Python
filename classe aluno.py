@@ -2,7 +2,7 @@ class Aluno:
     def __init__(self, nome, nota=0):
         self.nome = nome
         self.__nota = 0
-        self.nota = nota  # Usa o setter para aplicar a validação
+        self.nota = nota  
 
     @property
     def nota(self):
