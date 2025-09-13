@@ -23,5 +23,5 @@ print(f"Produto: {produto.nome}, Preço: R${produto.preco}")
 produto.preco = 2500
 print(f"Preço atualizado: R${produto.preco}")
 
-produto.preco = -500  # Isso deve exibir a mensagem de erro
+produto.preco = -500  
 print(f"Preço final: R${produto.preco}")
