@@ -38,5 +38,5 @@ print(f"Velocidade atual: {carro.mostrar_velocidade()} km/h")
 carro.frear(10)
 print(f"Velocidade atual: {carro.mostrar_velocidade()} km/h")
 
-carro.frear(50)  # Deve zerar a velocidade
+carro.frear(50)  
 print(f"Velocidade atual: {carro.mostrar_velocidade()} km/h")
